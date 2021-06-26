@@ -17,10 +17,6 @@
 
 /* HEADER SECTION */
 
-header {
-    margin-top: 40px;
-}
-
 .logo {
     display: inline-block;
     text-transform: uppercase;
@@ -56,6 +52,7 @@ header {
     font-family: "Open Sans SemiBold", sans-serif;
     font-size: 14px;
     line-height: 11px;
+    /* padding: 20px 0px 20px 20px; */
 }
 
 .nav-menu-item a:hover,
@@ -69,6 +66,7 @@ header {
 
 .navigation {
     margin-bottom: 110px;
+    margin-top: 40px;
 }
 
 /* FEAUTERED SECTION */
@@ -94,7 +92,6 @@ header {
 .featured-list {
     margin: 0;
     padding: 0;
-    width: 1110px;
 }
 
 .featured-list li {
@@ -123,7 +120,6 @@ header {
 
 
 .description-wrapper {
-    width: 255px;
     height: 40px;
     padding: 10px 12px 10px 10px;
     background: linear-gradient(90deg, #323232 0px, #323232 200px, #8c8c8c 200px, #8c8c8c 255px);
@@ -139,7 +135,7 @@ header {
 .price {
     float: right;
     margin: auto;
-    color: white;
+    color: #ffffff;
 }
 
 .featured-list-item:hover .description-wrapper {
@@ -150,6 +146,11 @@ header {
     box-shadow: 2px 2px 8px 8px rgba(34, 60, 80, 0.5);
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 /* NEWS SECTION */
 
@@ -174,12 +175,6 @@ header {
 .news-list {
     margin: 0;
     padding: 0;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 .news-item {
@@ -222,6 +217,8 @@ img {
     margin-bottom: 45px;
     cursor: pointer;
 }
+
+/* OTHER */
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
